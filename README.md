@@ -8,5 +8,7 @@ Progress:
 - `quit twitter` - 2008
 - `miss twitter` - 2059
 
+**TOTAL:**: 14165 posts
+
 Potential issue:
 - there might be a decent chunk of an *overlap* between posts from searches with different keywords (particularly `twitter` and other keywords containing the word 'twitter')
