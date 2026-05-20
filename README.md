@@ -12,3 +12,7 @@ Progress:
 
 Potential issue:
 - there might be a decent chunk of an *overlap* between posts from searches with different keywords (particularly `twitter` and other keywords containing the word 'twitter')
+
+UPD: actually soliud data.
+- only 120 duplicates
+- 6623 posts are replies to other posts we can look at

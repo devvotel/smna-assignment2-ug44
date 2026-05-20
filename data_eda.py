@@ -1,5 +1,6 @@
 import csv
 from collections import defaultdict
+import pandas
 
 with open ("data/posts.csv", "r", newline="", encoding="utf-8") as data:
     reader = csv.DictReader(data)
@@ -15,3 +16,11 @@ for key in kw_counts:
 
 print (kw_counts)
 print(total)
+
+df = pandas.read_csv("data/posts.csv")
+print(f"Total posts: {len(df)}")
+print(f"Duplicates: {df['uri'].duplicated().sum()}")
+print(f"Is reply True: {df['is_reply'].sum()}")
+print(f"Is reply False: {(df['is_reply'] == False).sum()}")
+print(f"\nReply count stats:")
+print(df['reply_count'].describe())
