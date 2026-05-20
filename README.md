@@ -1,5 +1,12 @@
-六七
+Progress:
+**Initial posts collected across 7 search keywords:**
+- `twitter` - 2057 posts
+- `elon` - 2009 posts
+- `twitter refugee` - 2007 posts
+- `bluesky vs twitter` - 2009 posts
+- `twitter is dead` - 2016
+- `quit twitter` - 2008
+- `miss twitter` - 2059
 
-waow japan sugoi 
-
-its chinese, I refuse to acknowledge them after what they did to my nanjing
+Potential issue:
+- there might be a decent chunk of an *overlap* between posts from searches with different keywords (particularly `twitter` and other keywords containing the word 'twitter')
