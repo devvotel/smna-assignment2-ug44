@@ -13,6 +13,11 @@ Progress:
 Potential issue:
 - there might be a decent chunk of an *overlap* between posts from searches with different keywords (particularly `twitter` and other keywords containing the word 'twitter')
 
-UPD: actually soliud data.
+UPD: actually solid data.
 - only 120 duplicates
 - 6623 posts are replies to other posts we can look at
+
+
+UPD2:
+- gathered entire reply threads (including nested threads) from top 10 posts with most replies + top 10 posts with most replies fetched by keyword `twitter vs bluesky`
+- 2825 posts from the threads were gathered separately into `data/edges.csv`
