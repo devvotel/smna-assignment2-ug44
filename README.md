@@ -1,6 +1,7 @@
 # Bluesky's X discourse analysis - do Bluesky users hate Twitter?
 
-**Course**: COSC2671, Social Media and Network Analytics (Undergraduate), Assignment 2, Semester 1 2026, RMIT University
+**Course**: COSC2671, Social Media and Network Analytics (Undergraduate), Assignment 2, Semester 1 2026, RMIT University <br>
+**Group**:  UG 44 <br>
 **Authors**: Daniil Pkhakadze (s4101606), Benjamin Norrie (s4076520)
 
 This project investigates how Bluesky users perceive Twitter/X. We collected ~14,000 posts using seven keywords related to Twitter/X discourse and applied network analysis, sentiment analysis, and topic modelling to answer: do Bluesky users hate Twitter?
