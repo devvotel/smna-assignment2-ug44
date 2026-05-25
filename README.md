@@ -14,10 +14,12 @@ This project investigates how Bluesky users perceive Twitter/X. We collected ~14
     and install all packages needed to run all files in the project into it.
    - IF you do NOT have uv: create a virtual environment manually (.venv), run `.venv/Scripts/activate` in the terminal, then install
    all packages that are listed in the `pyproject.toml` file.
-3) Run `fetch_posts.py` - it will gather ~14000 Bluesky posts using the API and save them into the **data** folder: `data/posts.csv`.
-4) Run `fetch_threads.py` - it will gather reply threads from the 20 most replied-to posts and save them in the **data** folder too: `data/edges.csv`.
-5) Now you can open `bluesky_analysis.ipynb` and run all the cells in the notebook.
-6) Open `network_analysis.ipynb` and do the same.
+3) If you don't have one already, create a `Bluesky` account. After that go to the `Settings` tab, choose `Privacy and security` tab, then `App Passwords` and `Add App Password`.
+4) In `fetch_posts.py` and `fetch_threads.py`, in the `client.login()` line of code, insert your Bluesky user handle (username.bsky.social) and the app password generated in the previous file.
+5) Run `fetch_posts.py` - it will gather ~14000 Bluesky posts using the API and save them into the **data** folder: `data/posts.csv`.
+6) Run `fetch_threads.py` - it will gather reply threads from the 20 most replied-to posts and save them in the **data** folder too: `data/edges.csv`.
+7) Now you can open `bluesky_analysis.ipynb` and run all the cells in the notebook.
+8) Open `network_analysis.ipynb` and do the same.
 
 
 
